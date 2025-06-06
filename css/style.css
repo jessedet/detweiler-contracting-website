@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header nav a {
+  color: white;
+  margin-left: 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#hero {
+  height: 100vh;
+  background: url('../images/hero.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.btn {
+  background: white;
+  color: #222;
+  padding: 0.8em 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section {
+  padding: 4em 2em;
+  text-align: center;
+}
+
+.card-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 1.5em;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.gallery {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+footer {
+  background: #eee;
+  padding: 1em;
+  text-align: center;
+}
