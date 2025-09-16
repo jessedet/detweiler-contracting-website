@@ -75,10 +75,28 @@ header nav a {
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
+  position: relative;
 }
 
 header nav a:hover {
   color: #D4AF37;
+}
+
+header nav a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 2px;
+  width: 100%;
+  background: #D4AF37;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+
+header nav a:hover:after {
+  transform: scaleX(1);
 }
 
 /* Hero Section */
@@ -115,6 +133,11 @@ header nav a:hover {
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.hero .hero-content {
+  will-change: transform;
+  transition: transform 0.2s ease-out;
 }
 
 /* Button Styles */
@@ -290,6 +313,18 @@ section h2 {
   margin-bottom: 2rem;
   color: #1a1a1a;
   text-align: center;
+}
+
+/* Reveal Animations inspired by modern site patterns */
+section.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+section.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 section p {
