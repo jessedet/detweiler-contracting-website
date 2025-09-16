@@ -138,5 +138,18 @@
   <footer>
     <p>&copy; 2025 Detweiler Contracting</p>
   </footer>
+  <script>
+    (function(){
+      var header = document.getElementById('header');
+      function onScroll(){
+        if(!header) return;
+        var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+        if(y > 20){ header.classList.add('header--shrink'); }
+        else { header.classList.remove('header--shrink'); }
+      }
+      onScroll();
+      window.addEventListener('scroll', onScroll, { passive: true });
+    })();
+  </script>
 </body>
 </html>
