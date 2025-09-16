@@ -36,7 +36,7 @@ header {
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #ff6b35;
+  color: #D4AF37;
 }
 
 header nav a {
@@ -48,7 +48,7 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #ff6b35;
+  color: #D4AF37;
 }
 
 /* Hero Section */
@@ -67,7 +67,7 @@ header nav a:hover {
 
 .hero-subtitle {
   font-size: 1.5rem;
-  color: #ff6b35;
+  color: #D4AF37;
   margin-bottom: 1rem;
   font-weight: 600;
 }
@@ -99,12 +99,12 @@ header nav a:hover {
 }
 
 .btn-primary {
-  background: #ff6b35;
+  background: #D4AF37;
   color: white;
 }
 
 .btn-primary:hover {
-  background: #e55a2b;
+  background: #B68F2A;
   transform: translateY(-2px);
 }
 
@@ -201,7 +201,7 @@ header nav a:hover {
 .feature h3 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  color: #ff6b35;
+  color: #D4AF37;
 }
 
 .feature p {
@@ -211,7 +211,7 @@ header nav a:hover {
 
 /* Call to Action */
 .cta {
-  background: #ff6b35;
+  background: #D4AF37;
   color: white;
   padding: 6rem 2rem;
   text-align: center;
@@ -295,7 +295,7 @@ footer {
 
 .lead {
   font-size: 1.3rem;
-  color: #ff6b35;
+  color: #D4AF37;
   font-weight: 600;
 }
 
@@ -338,7 +338,7 @@ footer {
   justify-content: center;
   font-size: 4rem;
   margin: 0 auto 1rem;
-  border: 4px solid #ff6b35;
+  border: 4px solid #D4AF37;
 }
 
 .our-values {
@@ -409,7 +409,7 @@ footer {
 .member-photo {
   width: 120px;
   height: 120px;
-  background: #ff6b35;
+  background: #D4AF37;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -426,7 +426,7 @@ footer {
 }
 
 .member-title {
-  color: #ff6b35;
+  color: #D4AF37;
   font-weight: 600;
   margin-bottom: 1rem;
 }
@@ -471,7 +471,7 @@ footer {
 .cert-item h3 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  color: #ff6b35;
+  color: #D4AF37;
 }
 
 .cert-item p {
@@ -549,7 +549,7 @@ footer {
   content: "✓";
   position: absolute;
   left: 0;
-  color: #ff6b35;
+  color: #D4AF37;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -558,14 +558,14 @@ footer {
   background: white;
   padding: 2rem;
   border-radius: 10px;
-  border: 2px solid #ff6b35;
+  border: 2px solid #D4AF37;
   margin-top: 2rem;
 }
 
 .price-range {
   font-size: 2rem;
   font-weight: 700;
-  color: #ff6b35;
+  color: #D4AF37;
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -608,7 +608,7 @@ footer {
 .step-number {
   width: 60px;
   height: 60px;
-  background: #ff6b35;
+  background: #D4AF37;
   color: white;
   border-radius: 50%;
   display: flex;
@@ -719,7 +719,7 @@ footer {
 
 .project-type,
 .project-duration {
-  background: #ff6b35;
+  background: #D4AF37;
   color: white;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
@@ -776,7 +776,7 @@ footer {
 }
 
 .category-stats span {
-  background: #ff6b35;
+  background: #D4AF37;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -827,7 +827,7 @@ footer {
 }
 
 .testimonial-author span {
-  color: #ff6b35;
+  color: #D4AF37;
   font-weight: 600;
   font-size: 0.9rem;
 }
@@ -911,7 +911,7 @@ footer {
 }
 
 .method-info span {
-  color: #ff6b35;
+  color: #D4AF37;
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -961,7 +961,7 @@ footer {
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #ff6b35;
+  border-color: #D4AF37;
 }
 
 .form-group textarea {
@@ -1056,7 +1056,7 @@ footer {
   background: rgba(255,255,255,0.1);
   padding: 2rem;
   border-radius: 10px;
-  border: 2px solid #ff6b35;
+  border: 2px solid #D4AF37;
 }
 
 .emergency-phone {
@@ -1073,7 +1073,7 @@ footer {
 .emergency-number {
   font-size: 2rem;
   font-weight: 700;
-  color: #ff6b35;
+  color: #D4AF37;
 }
 
 .emergency-note {
